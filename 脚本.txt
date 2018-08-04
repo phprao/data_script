@@ -1,0 +1,13 @@
+nohup php /mydata/data/mainscript/script_api/script_game_record.php > /dev/null 2>&1 &
+
+nohup php /mydata/data/mainscript/script_api/script_coin_count.php > /dev/null 2>&1 &
+
+nohup php /mydata/data/mainscript/script_api/script_player_earn.php > /dev/null 2>&1 &
+
+nohup php /mydata/data/mainscript/script_api/script_player_info.php > /dev/null 2>&1 &
+
+nohup php /mydata/data/mainscript/script_api/script_player_reward.php > /dev/null 2>&1 &
+
+nohup php /mydata/data/mainscript/script_api/script_rank.php > /dev/null 2>&1 &
+
+nohup php /mydata/data/mainscript/script_api/check_process.php > /dev/null 2>&1 &

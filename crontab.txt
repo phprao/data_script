@@ -1,0 +1,9 @@
+3号添加定时脚本
+
+crontab -e
+
+0 0 2 * * /usr/local/php/bin/php /mydata/data/mainscript/script_api/script_channel_reward_ext.php > /dev/null 2>&1 &
+
+service crond restart
+
+tail -f /var/log/cron
