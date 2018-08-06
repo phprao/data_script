@@ -33,9 +33,9 @@ class Config {
     
 	public static $send_bonus_config = [
         // 微信发红包地址
-        'send_bonus_url'      => 'http://www.dachuanyx.com/dc_service/sendwxbonus.php',
+        'send_bonus_url'      => '',
         // 微信发红包回调地址
-        'send_bonus_callback' => 'http://xycht.dcyouxi.com/dc_api_u3d/public/api/v1/withdraw/notify_action',
+        'send_bonus_callback' => '',
         // 微信发红包名称
         'send_bonus_name'     => 'king',
         // 微信发红包应用场景
